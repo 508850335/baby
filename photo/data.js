@@ -6,7 +6,7 @@ for(var i = 0; i<d.length; i++){
   var c = d[i].split("<br><br>");
   data.push({
     img: c[0]+ ".JPG",
-    caption: c[0].split(".")[1],
+    caption: "宝贝",
     desc: c[1]
   });
 }
